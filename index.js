@@ -14,7 +14,7 @@ function loadJSON(path, success, error) {
     xhr.send();
 }
 
-loadJSON("https://api.2coms.com/cities/?country_id=101", myData, 'json');
+loadJSON("https://api.2coms.com/cities/?country_id=101", myData, 'jsonp');
   
 function myData(data) {    
 
